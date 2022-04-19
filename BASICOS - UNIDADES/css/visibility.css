@@ -1,0 +1,49 @@
+/* La diferencia entre display:none y visibility:hidden es que con display se pierde el especio reservado, pero con visibility se oculta visualmente pero queda el especio ocupado en el htmk*/
+body{
+    margin: 0;
+}
+.caja-hidden{
+    background-color: green;
+    color: hotpink;
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.caja-hidden{
+    visibility: collapse;
+}
+
+/* Overflow */
+
+.container{
+    overflow: scroll;
+    width: 500px;
+    height: 200px;
+    background-color: yellow;
+}
+
+/* Float */
+
+.container-float{
+    background-color: red;
+}
+
+.float-l{
+    float: left;
+}
+
+.float-r{
+    float: right;
+}
+
+/* Colapso de margenes de margenes verticales */
+
+.margin-col{
+    background-color: aqua;
+}
+
+.margin-col section{
+    border: thin solid black;
+    margin-top: 16px;
+}

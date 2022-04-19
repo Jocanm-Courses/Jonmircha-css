@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: orange;
+    background-color: black;
+    border: 1px solid orange;
+}
+
+/* Dar estilos con id se considera un antipatrón */
+#parrafo2{
+    background-color: skyblue;
+    color: white;
+}
+
+.texto-32{
+    font-size: 32px;
+}

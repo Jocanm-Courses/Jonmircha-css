@@ -1,0 +1,22 @@
+
+/* Buena practica para que la imagen no se desborde hacia los lados */
+img{
+    max-width: 100%;
+}
+
+.card{
+    border: thick solid red;
+    width: 400px;
+    height: 400px;
+}
+
+
+.card img{
+    height:300px;
+    object-fit: fill;/*Default*/
+    object-fit: cover;
+    /* Desde donde deberia comenzar en X y en Y */
+    object-position: 50% 50%; /*Es del default cuando usamos objet-fit:cover;*/
+    object-position: left top;
+    object-fit: contain;
+}

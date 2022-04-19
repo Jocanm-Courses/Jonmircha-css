@@ -1,0 +1,51 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+.pixels{
+    background-color: powderblue;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+
+.ems{
+    background-color: powderblue;
+    width: 500px;
+    height: 500px;
+    font-size: 10px;
+    padding: 4em;
+}
+
+/* PORCENTAJES */
+
+
+.porcentaje{
+    background-color: red;
+    width: 80%;
+    font-size: 100%;
+}
+
+.parent{
+    background-color: brown;
+    width: 700px;
+    height: 700px;
+}
+
+.parent-child{
+    background-color: coral;
+    width: 50%;
+    height: 100%;
+}
+
+.viewport{
+    background-color: aquamarine;
+    width: 50vw;
+    height: 100vh;
+}

@@ -1,0 +1,50 @@
+:root{
+    --primary-color:gray;
+    --size:32px
+}
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+.custom-props-1{
+    --primary-color:gray;
+    --size:32px
+}
+
+
+.custom-props-1{
+    color: var(--primary-color);
+}
+
+.custom-props-3{
+    font-size: var(--size);
+}
+
+.ch-10{
+    --padding-size: 2ch;
+    --num-ch:10ch;
+    background-color: var(--primary-color);
+    width: 10ch;
+    font-size: 2rem;
+    padding: var(--padding-size);
+    width: calc(var(--num-ch) + var(--padding-size) * 4);
+}
+
+/* TENGO QUE VER FUNCION CALC() */
+
+.min-max{
+    background-color: var(--primary-color);
+    margin-top: 1rem;
+    width: min(100px,20vw);
+    height: max(200px,25vh);
+}
+
+h1{
+    font-size: clamp(2rem, 1rem + 3vw, 3rem);
+}

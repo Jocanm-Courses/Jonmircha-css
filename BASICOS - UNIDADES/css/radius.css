@@ -1,0 +1,26 @@
+.border-radius{
+    background-color: aquamarine;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: thick solid red;
+    border-radius: 4rem;
+}
+
+.radius-2{
+    background-color: aquamarine;
+    border: thick solid red;
+    width: 400px;
+    height: 400px;
+    margin: 3rem auto;
+    border-radius: 2rem / 4rem;
+}
+
+.outline{
+    background-color: aquamarine;
+    border: thick solid red;
+    width: 400px;
+    height: 400px;
+    margin: 3rem auto;
+    outline: thick solid red;
+}

@@ -1,0 +1,8 @@
+/* TENGO QUE VER 48 - TEXTO EN COLUMNAS */
+
+.text-column-4{
+    column-count: 4;
+    column-gap: 4rem;
+    column-rule: thick solid red;
+    column-width: 7rem;
+}

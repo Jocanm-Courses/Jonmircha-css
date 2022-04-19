@@ -1,0 +1,92 @@
+/* Pseudoclases de elementos interactivos */
+/* En formularios sirven bastante */
+.form-pseudo *:required{
+    border-color: yellow;
+}
+
+.form-pseudo *:valid{
+    background-color: cyan;
+}
+
+.form-pseudo *:invalid{
+    background-color: red;
+}
+
+.form-pseudo *:focus{
+    background-color: skyblue;
+}
+
+.form-pseudo *:disabled{
+    background-color: pink;
+}
+
+.menu a:visited{
+    color: olive;
+}
+
+.menu a:hover{
+    color: orange;
+}
+
+#temarioCurso:target{
+    background-color: blue;
+}
+
+
+/* Pseudoclases segun su posición */
+
+.lista-pseudo li:first-child{
+    color: aqua;
+}
+
+.lista-pseudo li:last-child{
+    color: violet;
+}
+
+.lista-pseudo li:nth-child(7){
+    color: brown;
+}
+
+/* Expresiones */
+
+/* Cada dos elementos aplica el estilo */
+.lista-pseudo li:nth-child(2n){
+    color: blue;
+}
+
+.lista-pseudo li:nth-child(2n + 1){
+    color: darkcyan;
+}
+
+/* Se aplica a los elementos pares */
+.lista-pseudo li:nth-child(even){
+    background-color: yellow;
+}
+
+/* Se aplica a los elementos impares  */
+.lista-pseudo li:nth-child(odd){
+    background-color: orange;
+}
+
+/* Filtro en base a tipos
+    Aqui le estamos diciendo que el primer parrafo dentro del contenedor, aplique los estilos
+*/
+
+.articulos p:first-of-type{
+    color: red;
+}
+
+.articulos p:last-of-type{
+    color: red;
+}
+
+.articulos p:nth-of-type(2){
+    color: beige;
+}
+
+
+/* Aplicar todos los estilos excepto al definido */
+
+.articulos *:not(p,button) {
+    background-color: beige;
+}

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/pseudoclases.css">
+    <link rel="stylesheet" href="css/pseudoelementos.css">
+    <link rel="stylesheet" href="css/visibility.css">
+    <link rel="stylesheet" href="css/centradoCajas.css">
+    <link rel="stylesheet" href="css/slidesStikcy.css">
+    <title>Curso de css</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <header class="header-1">
+    </header>
+    <nav class="lista">
+        <li>seccion 1</li>
+        <li>seccion 2</li>
+        <li>seccion 3</li>
+        <li>seccion 4</li>
+    </nav> -->
+    <header class="header-2">
+        <li>seccion 1</li>
+        <li>seccion 2</li>
+        <li>seccion 3</li>
+        <li>seccion 4</li>
+    </header>
+    <article id="temarioCurso">
+        <h1 class="title">Aprendiendo CSS</h1>
+        <p><i style="font-weight: bold; color: orange;">Cascadin Style Sheets</i> - Hoja de estilo en cascada</p>
+
+        <h2>Temario del curso</h2>
+        <ul>
+            <li>
+                <a href="index.html#selectores-basicos">Selectores basicos</a>
+            </li>
+            <li>
+                <a href="index.html#selectores-avanzados">Selectores avanzados</a>
+            </li>
+            <li>
+                <a href="index.html#pseudoclases">Pseudoclases</a>
+            </li>
+            <li>
+                <a href="index.html#pseudoelementos">Pseudoelementos</a>
+            </li>
+            <li>
+                <a href="index.html#visibility">visibility</a>
+            </li>
+            <li>
+                <a href="index.html#centrado-cajas">Centrado de cajas</a>
+            </li>
+            <li>
+                <a href="colors.html">Colores html</a>
+            </li>
+            <li>
+                <a href="units.html">Unidades de medida CSS</a>
+            </li>
+        </ul>
+    </article>
+    <hr>
+    <article id="selectores-basicos">
+        <h2>Selectores Basicos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur ut aspernatur, ullam adipisci mollitia quos
+            illum error, modi quam beatae ipsa saepe quo distinctio! Voluptate facere maxime beatae. Omnis, blanditiis.
+        </p>
+        <p id="parrafo2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit doloremque aspernatur perspiciatis
+            debitis iusto nobis incidunt quas consectetur. In optio tenetur soluta, aspernatur magni hic sint? Nulla
+            maiores quis corporis.
+        </p>
+        <p class="texto-32">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores expedita dolor tenetur necessitatibus rem
+            eos aut consequatur minus illum! Nulla, sit recusandae blanditiis incidunt nobis qui perspiciatis adipisci
+            hic ex!
+        </p>
+        <a href="index.html#temarioCurso">👍</a>
+    </article>
+    <!-- TENGO QUE VER LA SESIÓN 8 -->
+    <hr>
+    <article id="selectores-avanzados">
+        <h2>Selectores avanzados</h2>
+    </article>
+    <a href="index.html#temarioCurso">👍</a>
+    <hr>
+    <article id="pseudoclases">
+        <h2>Pseudoclases</h2>
+        <form class="form-pseudo">
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" required>
+            <input type="email" placeholder="Correo" />
+            <input type="number" placeholder="Numero" />
+            <input type="submit" />
+        </form>
+        <nav class="menu">
+            <a href="#seccion1">Seccion1</a>
+            <a href="#seccion2">Seccion2</a>
+            <a href="#seccion3">Seccion3</a>
+            <a href="#seccion4">Seccion4</a>
+        </nav>
+        <ul class="lista-pseudo">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+            <li>item 6</li>
+            <li>item 7</li>
+            <li>item 8</li>
+            <li>item 9</li>
+            <li>item 10</li>
+            <li>item 11</li>
+            <li>item 12</li>
+        </ul>
+        <article class="articulos">
+            <header>Header</header>
+            <p>Esto es un parrafo</p>
+            <div>Esto es un div</div>
+            <p>Otro parrafo</p>
+            <section>Esto es section</section>
+            <p>Parrafoo</p>
+            <footer>Esto es un footer</footer>
+            <button>Boton</button>
+        </article>
+        <a href="index.html#temarioCurso">👍</a>
+    </article>
+    <hr>
+    <article id="pseudoelementos">
+        <h2>Pseudoelementos</h2>
+        <p>
+            <i>Bandai myth cloth ex</i><span class="geminis"> Saga geminis</span><span class="precio">500</span>
+        </p>
+        <p class="p-pseduelementos">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus corporis excepturi laborum laudantium,
+            commodi ullam voluptatem quis, enim similique quo eos, id deserunt officiis? Autem porro tempore quas?
+            Fugit, veritatis!
+        </p>
+        <input class="input-el" type="text" placeholder="Nombre">
+        <a href="index.html#temarioCurso">👍</a>
+    </article>
+    <hr>
+    <article id="visibility">
+        <h2>Visibility</h2>
+        <div class="caja-none">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam doloremque pariatur, inventore vitae
+                magnam accusantium, suscipit ratione similique fugit, hic dicta. Atque consequatur voluptas a mollitia
+                harum obcaecati non porro.</p>
+        </div>
+        <div class="caja-hidden">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam doloremque pariatur, inventore vitae
+                magnam accusantium, suscipit ratione similique fugit, hic dicta. Atque consequatur voluptas a mollitia
+                harum obcaecati non porro.</p>
+        </div>
+    </article>
+    <a href="index.html#temarioCurso">👍</a>
+    <hr>
+    <section id="overflow">
+        <div class="container">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur laborum suscipit veniam ullam sint,
+            ratione eius incidunt quos repudiandae deserunt eos reiciendis libero iste asperiores ea cupiditate
+            necessitatibus cumque corporis.
+            Quos sapiente aut odio accusantium voluptatum corporis magnam ratione non voluptas nesciunt aperiam quidem
+            facilis nisi laborum, fugit ullam ad vero aspernatur dolore dolor itaque mollitia. Vitae corrupti explicabo
+            quam?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, tempora maxime! Veniam, assumenda
+            inventore. Quod excepturi iusto aspernatur voluptatem. Explicabo ipsam nostrum dolorum, neque asperiores
+            voluptatibus fugiat libero magnam. Numquam.
+            Velit accusantium totam exercitationem perferendis eos rem, ab omnis quis eius, fugiat animi similique!
+            Praesentium, labore quas. Id aliquid neque maxime quam impedit cupiditate aspernatur, sapiente, excepturi
+            perspiciatis error aperiam.
+            Voluptas autem nesciunt, temporibus eaque dolorum error veniam eveniet asperiores. Omnis nulla, itaque amet
+            pariatur libero commodi soluta quae a ullam nihil nemo, ut architecto, vitae ea corporis animi aliquam.
+            Maxime quod eveniet, cupiditate, inventore autem adipisci facilis a fugiat do
+        </div>
+        <a href="index.html#temarioCurso">👍</a>
+        <!-- Tengo que ver 32 - tamaño de caja -->
+    </section>
+    <hr>
+    <h2>Propiedad Float y clear</h2>
+    <article class="container-float">
+        <section class="float-r">Este elemento flota a la derecha</section>
+        <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, natus vitae voluptatibus nobis
+            ipsa maiores praesentium maxime dolorum distinctio dolorem fuga aliquam minima totam. Esse eius natus at
+            itaque magni.</section>
+        <section class="float-l">Este elemento flota a la izquierda</section>
+    </article>
+    <a href="index.html#temarioCurso">👍</a>
+    <hr>
+    <h2>Colapso de margenes verticales</h2>
+    <article class="margin-col">
+        <section>seccion1</section>
+        <section>seccion2</section>
+    </article>
+    <a href="index.html#temarioCurso">👍</a>
+    <hr>
+    <h2 id="centrado-cajas">Centrado de cajas</h2>
+    <article class="sitio-web">
+        <header>Cabecera</header>
+        <main>Contenido Principal</main>
+        <span>123</span>
+        <footer>Pie de pagina</footer>
+    </article>
+    <a href="index.html#temarioCurso">👍</a>
+    <hr>
+    <h2>Posicionamineto</h2>
+    <div class="sti">
+        <div class="caja-1">
+            caja sticky 1
+        </div>
+    </div>
+    <div class="caja-2">
+        Caja sticky 2
+    </div>
+    <a href="index.html#temarioCurso">👍</a>
+    <hr>
+    <h2>Efecto de slides con sticky</h2>
+    <h2>Efecto de ventana modal</h2>
+    <div class="hero-img"></div>
+    <section class="slides">
+        <article class="slide">
+            <h3 class="slide-title">Titulo de la slide</h3>
+            <div class="slide-content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+            </div>
+
+        </article>
+        <article class="slide">
+            <h3 class="slide-title">Titulo de la slide</h3>
+            <div class="slide-content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+            </div>
+
+        </article>
+        <article class="slide">
+            <h3 class="slide-title">Titulo de la slide</h3>
+            <div class="slide-content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+            </div>
+
+        </article>
+        <article class="slide">
+            <h3 class="slide-title">Titulo de la slide</h3>
+            <div class="slide-content">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo earum sed reprehenderit, mollitia
+                    vero, nemo, labore adipisci eligendi ab nobis corporis neque sunt ullam ipsum! Iste, repellat
+                    architecto. Ex, corporis.</p>
+            </div>
+
+        </article>
+        <article id="modal-1" class="modal">
+            <h3 class="modal-title">Esto es una ventana modal</h3>
+            <div class="modal-content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis repellendus dolores provident autem dolore rerum odit dignissimos optio blanditiis vel doloremque eos sit, quis numquam reiciendis repudiandae corporis sapiente mollitia?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis repellendus dolores provident autem dolore rerum odit dignissimos optio blanditiis vel doloremque eos sit, quis numquam reiciendis repudiandae corporis sapiente mollitia?</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis repellendus dolores provident autem dolore rerum odit dignissimos optio blanditiis vel doloremque eos sit, quis numquam reiciendis repudiandae corporis sapiente mollitia?</p>
+            </div>
+            <a href="#close">Cerrar modal</a>
+        </article>
+        <a class="modal-link" href="#modal-1">Abrir modal</a>
+    </section>
+    <br><br><br><br><br><br><br>
+</body>
+
+</html>

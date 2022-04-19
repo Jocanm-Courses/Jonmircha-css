@@ -1,0 +1,45 @@
+/* Agregar contenido antes o despues de un elemento */
+.geminis::before{
+    content: " 🌹Contenido extra";
+}
+
+.geminis::after{
+    content: 🐱‍🐉;
+}
+
+.precio::after{
+    content: "$";
+    font-weight: bold;
+}
+
+.precio::before{
+    content: " USD";
+    font-weight: bold;
+}
+
+/* Editar la primera letra de un elemento, en este caso un p */
+/* Solo funciona a elementos de bloque */
+.p-pseduelementos::first-letter{
+    color: blue;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+/* Editar la primera linea de un parrafo */
+.p-pseduelementos::first-line{
+    color: coral;
+}
+
+/* Editar como queremos que se vea nuestros elementos cuando se seleccionan */
+.p-pseduelementos::selection{
+    color: yellow;
+    background-color: red;
+    
+}
+
+/* Editar el placeholder de un input */
+
+.input-el::placeholder{
+    color: red;
+    background-color: yellow;
+}

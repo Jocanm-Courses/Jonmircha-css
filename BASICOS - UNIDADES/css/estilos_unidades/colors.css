@@ -1,0 +1,40 @@
+/*
+    Sistema hexadecimal 
+    0123456789ABCDEF
+
+    RGB ( Medios digitales )
+    CMYK ( Medios Impresos )
+
+    Colores de 6 digitos
+    #FF6600
+
+    Los dos primeros digitos definen la intencidad del rojo, los dos siguientes definen la intensidad del verde y los dos ultimos definen la intensidad de azul ( RedGreenBlue RGB )
+
+    Si le agregamos dos digitos mas, estos controlaran la opacidad del color
+
+    desde 01 hasta 99
+
+    si usamos el shorthand de 3 digitos, el cuarto digito contolará la opacidad desde 1 hasta 9
+ */
+
+.color-hex{
+    background-color: #ff6600;
+    /* Lo mismo */
+    background-color: #f60;
+    /* Opacidad */
+    background-color: #00ff0099;
+    background-color: #f001;
+}
+
+
+.color-rgb{
+    background-color: rgb(255, 0,0);
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+/* 
+    HSL
+    Hue-Saturation-Lightness ( Tono-saturación-luminosidad )
+*/
+
+

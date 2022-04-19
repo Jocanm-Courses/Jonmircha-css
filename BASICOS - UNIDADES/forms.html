@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/forms.css">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Estilos para formularios</h1>
+    <form class="contact-form" action="https://formsubmit.co/your@email.com" method="POST">
+        <input 
+        type="text" 
+        name="nombre" 
+        placeholder="Escribe tu nombre" 
+        pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+        title="Nombre sólo acepta letras y espacios en blanco" 
+        required>
+        <input 
+        type="email" 
+        name="correo" 
+        placeholder="Escribe tu correo" 
+        pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"
+        title="Formato de correo inválido" 
+        required>
+        <!-- <input 
+        type="email" 
+        name="correo" 
+        placeholder="Escribe tu correo" 
+        pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+        title="Formato de correo inválido" 
+        required> -->
+        <textarea 
+        name="comentarios" 
+        placeholder="Escribe tus comentarios" 
+        cols="10" 
+        rows="5" 
+        maxlength="7"
+        minlength="2"
+        required></textarea>
+        <input type="submit">
+    </form>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</body>
+
+</html>

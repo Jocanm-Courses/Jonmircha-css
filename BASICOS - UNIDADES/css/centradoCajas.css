@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+.title{
+    margin: 0;
+}
+
+.header-1{
+    background-color: brown;
+    height: 30px;
+}
+.header-2{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.sti{
+    height: 50vh;
+    background-color: blue;
+}
+
+.lista{
+    background-color: brown;
+    height: 30px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.sitio-web{
+    border: 1px solid red;
+    background-color: aquamarine;
+    width: 800px;
+    height: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* Posicionamientio */
+
+.caja-1, .caja-2{
+    width: 400px;
+    height: 200px;
+    background-color: rebeccapurple;
+    margin-bottom: 20px;
+}
+
+.caja-1{
+    position: sticky;
+    top: 0;
+}
