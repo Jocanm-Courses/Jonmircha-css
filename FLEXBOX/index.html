@@ -9,11 +9,32 @@
     <style>
         .container {
             background-color: #333;
-            display:inline-flex;
+            padding:20px;
+            height: 80vh;
+            display:flex;
+            gap:10px;
+            flex-flow:row wrap;
+            /* align-items: stretch; */
+            align-items: start;
+            /* align-items: baseline; */
+            /* align-items: center; */
+
+            /*-----------------------------*/
+
+            align-content: center;
+            /* align-content: stretch; */
+
         }
 
         .item{
             background-color: #666;
+            border: medium solid #999;
+            width: 200px;
+            /* height: 5%; */
+        }
+
+        .item:nth-child(odd){
+            font-size: 3rem;
         }
     </style>
 </head>
@@ -24,12 +45,31 @@
         <article class="item">item 1</article>
         <article class="item">item 2</article>
         <article class="item">item 3</article>
-    </section>
-    <section class="container">
+        <article class="item">item 4</article>
+        <article class="item">item 5</article>
         <article class="item">item 1</article>
         <article class="item">item 2</article>
         <article class="item">item 3</article>
+        <article class="item">item 4</article>
+        <article class="item">item 5</article>
+        <article class="item">item 1</article>
+        <article class="item">item 2</article>
+        <article class="item">item 3</article>
+        <article class="item">item 4</article>
+        <article class="item">item 5</article>
+        <article class="item">item 1</article>
+        <article class="item">item 2</article>
+        <article class="item">item 3</article>
+        <article class="item">item 4</article>
+        <article class="item">item 5</article>
     </section>
+    <!-- <section class="container">
+        <article class="item">item 1</article>
+        <article class="item">item 2</article>
+        <article class="item">item 3</article>
+        <article class="item">item 4</article>
+        <article class="item">item 5</article>
+    </section> -->
 
 </body>
 
