@@ -7,21 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+        body{
+            box-sizing: border-box;
+            margin:0;
+            padding:0;
+        }
+
         .container {
             background-color: #333;
             padding:20px;
             height: 80vh;
+
             display:flex;
-            gap:10px;
-            flex-flow:row wrap;
-            /* align-items: stretch; */
-            align-items: start;
+            flex-flow:row nowrap;
+            align-items: stretch;
+            /* align-items: start; */
             /* align-items: baseline; */
             /* align-items: center; */
 
             /*-----------------------------*/
 
-            align-content: center;
+            align-content: start;
             /* align-content: stretch; */
 
         }
@@ -30,11 +37,41 @@
             background-color: #666;
             border: medium solid #999;
             width: 200px;
+            flex-grow: 1;
             /* height: 5%; */
         }
 
-        .item:nth-child(odd){
+        .item:nth-child(2){
+            flex-grow: 2;
+        }
+
+        .dos .item:nth-child(odd){
             font-size: 3rem;
+        }
+
+        /* Explicando flex shrink */
+
+        .container{
+            width: 100%;
+        }
+
+        .item:nth-child(2){
+            flex-grow: 0;
+            flex-basis: 200px;
+        }
+        .item{
+            width: auto;
+            flex-grow: 0;
+
+            flex-shrink: 0;
+        }
+
+        .item:nth-child(2){
+            order:1;
+            text-align: center;
+
+            
+            align-self: center;
         }
     </style>
 </head>
@@ -42,27 +79,35 @@
 <body>
 
     <section class="container">
-        <article class="item">item 1</article>
-        <article class="item">item 2</article>
-        <article class="item">item 3</article>
-        <article class="item">item 4</article>
-        <article class="item">item 5</article>
-        <article class="item">item 1</article>
-        <article class="item">item 2</article>
-        <article class="item">item 3</article>
-        <article class="item">item 4</article>
-        <article class="item">item 5</article>
-        <article class="item">item 1</article>
-        <article class="item">item 2</article>
-        <article class="item">item 3</article>
-        <article class="item">item 4</article>
-        <article class="item">item 5</article>
-        <article class="item">item 1</article>
-        <article class="item">item 2</article>
-        <article class="item">item 3</article>
-        <article class="item">item 4</article>
-        <article class="item">item 5</article>
+        <article class="item">Flex item 1</article>
+        <article class="item">Flex item 2</article>
+        <article class="item">Flex item 3</article>
+        <article class="item">Flex item 4</article>
+        <article class="item">Flex item 5</article>
     </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- <section class="container dos">
+        <article class="item">item 1</article>
+        <article class="item">item 2</article>
+        <article class="item">item 3</article>
+        <article class="item">item 4</article>
+        <article class="item">item 5</article>
+        <article class="item">item 1</article>
+        <article class="item">item 2</article>
+        <article class="item">item 3</article>
+        <article class="item">item 4</article>
+        <article class="item">item 5</article>
+        <article class="item">item 1</article>
+        <article class="item">item 2</article>
+        <article class="item">item 3</article>
+        <article class="item">item 4</article>
+        <article class="item">item 5</article>
+        <article class="item">item 1</article>
+        <article class="item">item 2</article>
+        <article class="item">item 3</article>
+        <article class="item">item 4</article>
+        <article class="item">item 5</article>
+    </section> -->
     <!-- <section class="container">
         <article class="item">item 1</article>
         <article class="item">item 2</article>
